@@ -1,0 +1,13 @@
+body {
+    width: 800px;
+    align-content: center;
+}
+header {
+    color: white;
+    background-color: forestgreen;
+    font-family: sans-serif;
+}
+img {
+    float: right;
+    width: 150px;
+}

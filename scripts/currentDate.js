@@ -1,3 +1,8 @@
 let myName = 'Sam Noorda';
-let curDate = new Date().getFullYear();
+let currentDate = new Date();
+console.log(currentDate);
 
+let currentYear = currentDate.getFullYear();
+console.log(currentYear);
+
+document.getElementById("currentYear").innerHTML = currentYear;

@@ -13,9 +13,10 @@ body {
 header {
     color: white;
     background-color: maroon;
-    /* font-family: sans-serif; */
-    padding-top: 18px;
-    padding-bottom: 18px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16pt;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 ul {
     font-family: sans-serif;

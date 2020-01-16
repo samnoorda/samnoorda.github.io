@@ -13,11 +13,11 @@ body {
 header {
     color: white;
     background-color: maroon;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     padding-top: 18px;
     padding-bottom: 18px;
 }
-main {
+ul {
     font-family: sans-serif;
     
 }
@@ -29,7 +29,6 @@ footer {
     padding-bottom: 8px;
 }
 img {
-    float: right;
     width: 180px;
     padding-right: 5px;
 }

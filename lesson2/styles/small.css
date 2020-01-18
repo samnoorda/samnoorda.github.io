@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-size: 10pt;
+    text-align: center;
+    align-items: center;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    width: 200px;
+}
+img {
+    width: 200px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid
+}

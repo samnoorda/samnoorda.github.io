@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        font-size: 12pt;
+        
+    }
+    img {
+        width: 300px;
+    }
+    p {
+        width: 300px;
+    }
+    #grid {
+        grid-template-columns: 1fr 3px 1fr;
+    }
+}

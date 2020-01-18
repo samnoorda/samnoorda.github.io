@@ -1,0 +1,11 @@
+@media only screen and (min-width: 64em) {
+    img {
+        width: 400px;
+    }
+    p {
+        width: 400px;
+    }
+    #grid {
+        grid-template-columns: 1fr 3px 1fr 3px 1fr;
+    }
+}

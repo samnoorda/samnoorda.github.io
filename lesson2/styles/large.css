@@ -6,6 +6,6 @@
         width: 400px;
     }
     #grid {
-        grid-template-columns: 1fr 3px 1fr 3px 1fr;
+        grid-template-columns: 1fr 3px 1fr 3px 1fr 3px;
     }
 }

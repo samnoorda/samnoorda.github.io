@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em) {
+    .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+    ul a {
+        padding: 10px;
+    }
+    main {
+        font-size: large;
+        margin-left: 2in;
+        margin-right: 2in;
+    }
+    #cloud {
+        width: 150px;
+    }
+    main {
+        width: fit-content;
+    }
+    footer, header {
+        padding: 1px;
+    }
+}

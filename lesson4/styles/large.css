@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        font-size: large;
+        margin-left: 1.5in;
+        margin-right: 1.5in;
+        width: fit-content;
+    }
+    footer, header {
+        padding: 5px;
+    }
+    #cloud {
+        float: left;
+        width: 100px;
+        padding-left: 3em;
+        padding-top: 8px;
+    }
+    #contact {
+        flex-direction: row;
+    }
+    ul {
+        padding: 0;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex li {
+        display: block;
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    .flex li:first-child {
+        display: none;
+    }
+    #article {
+        flex-direction: row;
+    }
+    #contact {
+        flex-direction: row;
+    }
+}

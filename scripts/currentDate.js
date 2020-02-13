@@ -11,3 +11,13 @@ var lastMod = document.lastModified;
 console.log(lastMod);
 
 document.getElementById("lastMod").innerHTML = lastMod
+
+/* Font Loader */
+WebFont.load({
+    google: {
+      families: [
+         'Libre',
+         'Permanent Marker'
+      ]
+    }
+  });

@@ -4,49 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Preston</title>
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles/gallsmall.css">
+    <link rel="stylesheet" href="styles/gallmedium.css">
+    <link rel="stylesheet" href="styles/galllarge.css">
     </head>
 </head>
-<header>
-    <img src="images/cloudlogo.png" alt="cloudlogo" id="cloud">
-    <h1 id="title">The Temperature For Travelors</h1>
-</header>
-<nav>
-    <ul class="flex">
-        <li>
-            <a href="#" onclick="toggle()">&equiv; Menu</a>
-        </li>
-        <li>
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="https://samnoorda.github.io/lesson7/preston-7">Preston</a>
-        </li>
-        <li>
-            <a href="#">Soda Springs</a>
-        </li>
-        <li>
-            <a href="#">Fish Haven</a>
-        </li>
-        <li>
-            <a href="#">Storm Center</a>
-        </li>
-        <li>
-            <a href="https://samnoorda.github.io/lesson7/gallery-7" class="active">Gallery</a>
-        </li>
-    </ul>
-</nav>
-<main>
-    <h1>Weather Gallery</h1>
-    
-</main>
-<footer>
-    &copy; | The Temperature for Travelers | Sam Noorda | <br> <span id="curDate"></span>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="scripts/main.js"></script>
+<body>
+    <aside class="pancakes">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+    </aside>
+    <header>
+        <img src="images/cloudlogo.png" alt="cloudlogo" id="cloud">
+        <h1 id="title">The Temperature For Travelors</h1>
+    </header>
+    <nav>
+        <ul class="flex">
+            <li>
+                <a href="#" onclick="toggle()">&equiv; Menu</a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="https://samnoorda.github.io/lesson7/preston-7">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="#">Storm Center</a>
+            </li>
+            <li>
+                <a href="https://samnoorda.github.io/lesson7/gallery-7" class="active">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Weather Gallery</h1>
+        <section class="pictures">
+            <article>
+                <picture>
+                    <img src="images/400x300.png" data-src="images/weather1.png" alt="splitcloud">
+                    <br>Weather 1
+                </picture>
+            </article>
+            <article>
+                <picture>
+                    <img src="images/400x300.png" data-src="images/weather2.jpg" alt="topcloud">
+                    <br>Weather 2
+                </picture>
+            </article>
+            <article>
+                <picture>
+                    <img src="images/400x300.png" data-src="images/weather3.jpeg" alt="lightning1">
+                    <br>Weather 3
+                </picture>
+            </article>
+            <article>
+                <picture>
+                    <img src="images/400x300.png" data-src="images/weather4.jpg" alt="field">
+                    <br>Weather 4
+                </picture>
+            </article>
+            <article>
+                <picture>
+                    <img src="images/400x300.png" data-src="images/weather5.jpg" alt="lightning2">
+                    <br>Weather 5
+                </picture>
+            </article>
+            <article>
+                <picture>
+                    <img src="images/400x300.png" data-src="images/weather6.jpeg" alt="topcloud2">
+                    <br>Weather 6
+                </picture>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy; | The Temperature for Travelers | Sam Noorda | <br> <span id="curDate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/gallmain.js"></script>
 </body>
 </html>

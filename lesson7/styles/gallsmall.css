@@ -1,0 +1,156 @@
+body  {
+    background-color: #fbfbff;
+}
+header, footer {
+    background-color: #b80c09;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+    display: block;
+}
+html {
+    justify-content: center;
+    background-color: #0b4f6c;
+}
+main {
+    margin: 0 auto;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+nav {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #01baef;
+    padding: 3px;
+}
+aside {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #01baef;
+    width: 100%;
+    text-align: center;
+    padding: 0 auto;
+}
+ul {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #01baef;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul a:visited {
+    /* color: #0b4f6c; */
+}
+ul a:hover {
+    background-color: #0b4f6c;
+    color: #fbfbff;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+address {
+    width: 100%;
+}
+.flex {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.flex li:first-child {
+    display: block;
+}
+.flex li {
+    display: none;
+}
+.resp li {
+    display: block;
+}
+.active {
+    background-color: #b80c09;
+    color: #fbfbff;
+}
+.weather-summary {
+    position: absolute;
+    top: 300px;
+    left: 25px;
+    background-color: white;
+    opacity: .7;
+    padding: 10px;
+}
+.respon {
+    top: 450px;
+}
+#ham {
+    display: flex
+}
+#cloud {
+    width: 50px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 8px;
+}
+#title {
+    padding: 8px;
+}
+#hero {
+    background-color: #b80c09;
+}
+#heroimg {
+    max-width:100%;
+    max-height:100%;
+}
+#article {
+    background-color: #b80c09;
+    display: flex;
+    flex-direction: column;
+}
+#fiveDay {
+    background-color: #01baef;
+    display: none;
+}
+#contact {
+    background-color: #01baef;
+    display: flex;
+    flex-direction: column;
+}
+#summary {
+    width: 100%;
+}
+#art {
+    width: 100%;
+}
+#map {
+    width: 100%;
+    display: none;
+}
+
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 400px;
+    max-width: 100%;
+  }
+body {
+    width: 100%;
+}
+picture {
+    background-color:#b80c09;
+    color: white;
+}
+picture:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+}

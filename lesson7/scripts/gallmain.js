@@ -61,7 +61,11 @@ WebFont.load({
     }
   });
 
-  let imagesToLoad = document.querySelectorAll('img[data-src]');
+let imagesToLoad = document.querySelectorAll('img[data-src]');
+const imgOptions = {
+  threshold: 0,
+  rootmargin: "0px 0px 50px 0px"
+};
 const loadImages = (image) => {
   image.setAttribute('src', image.getAttribute('data-src'));
   image.onload = () => {
@@ -71,7 +75,7 @@ const loadImages = (image) => {
 
 imagesToLoad.forEach((img) => {
     loadImages(img);
-  });
+});
 
 if('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((items, observer) => {
@@ -81,11 +85,12 @@ if('IntersectionObserver' in window) {
         observer.unobserve(item.target);
       }
     });
-  });
+  }, imgOptions);
   imagesToLoad.forEach((img) => {
     observer.observe(img);
   });
-} else {
+} 
+else {
   imagesToLoad.forEach((img) => {
     loadImages(img);
   });

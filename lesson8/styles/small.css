@@ -56,6 +56,12 @@ table, tr, th, td {
 address {
     width: 100%;
 }
+input[type="text"] {
+    border: 1xp solid red;
+}
+label, input, select, datalist {
+    max-width: 100%;
+}
 .flex {
     list-style: none;
     text-align: center;

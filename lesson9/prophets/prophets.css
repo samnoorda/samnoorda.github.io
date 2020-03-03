@@ -1,0 +1,40 @@
+article {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+html {
+    text-align: center;
+}
+
+img {
+    box-shadow: 10px 10px 8px #888888;
+    width: 200px;
+}
+
+p {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

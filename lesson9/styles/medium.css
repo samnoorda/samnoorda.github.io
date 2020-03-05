@@ -8,6 +8,18 @@
     footer, header {
         padding: 5px;
     }
+    section {
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: large;
+    }
     ul {
         padding: 0;
     }

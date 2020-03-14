@@ -1,0 +1,14 @@
+@media only screen and (min-width: 60em) {
+    main {
+        /* margin-left: 1.5in; */
+        /* margin-right: 1in; */
+    }
+    .weather-summary {
+        left: 150px;
+        margin-left: 1.5in;
+    }
+    .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}

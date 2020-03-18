@@ -1,0 +1,71 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        font-size: large;
+        /* margin-left: .5in; */
+        /* margin-right: .5in; */
+        width: fit-content;
+    }
+    footer, header {
+        padding: 5px;
+    }
+    section {
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: large;
+    }
+    ul {
+        padding: 0;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex li {
+        display: block;
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    .flex li:first-child {
+        display: none;
+    }
+    #cloud {
+        float: left;
+        width: 100px;
+        padding-left: 3em;
+        padding-top: 8px;
+    }
+    #contact {
+        flex-direction: row;
+    }
+    #article {
+        flex-direction: row;
+    }
+    #contact {
+        flex-direction: row;
+    }
+    #summary {
+        width: 100%;
+    }
+    .weather-summary {
+        left: 150px;
+    }
+    #fiveDay {
+        display: block;
+    }
+    #table {
+        width: 100%;
+    }
+    #map {
+        width: 40%;
+        display: flex;
+    }
+    #art {
+        width: 40%;
+    }
+}

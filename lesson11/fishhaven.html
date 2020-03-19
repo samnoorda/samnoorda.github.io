@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="styles/large.css">
     </head>
 </head>
-<body>
+<body onload="getEvents('fish haven')">
     <aside class="pancakes">
         <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
     </aside>
     <header>
         <img src="images/cloudlogo.png" alt="cloudlogo" id="cloud">
         <h1 id="title">The Temperature For Travelors</h1>
+        <h3>Don't Get Caught in the Rain</h3>
     </header>
     <nav>
         <ul class="flex">
@@ -27,7 +28,7 @@
                 <a href="https://samnoorda.github.io/lesson11/index">Home</a>
             </li>
             <li>
-                <a href="https://samnoorda.github.io/lesson11/preston-11">Preston</a>
+                <a href="https://samnoorda.github.io/lesson11/preston">Preston</a>
             </li>
             <li>
                 <a href="https://samnoorda.github.io/lesson11/sodasprings">Soda Springs</a>
@@ -107,6 +108,12 @@
                 </tbody>
             </table>
         </section>
+        <section>
+            <h3>Upcoming Events:</h3><hr>
+            <ul id="events">
+
+            </ul>
+        </section>
         <section id="article">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur amet a facilis vitae saepe ad at laudantium? Nam perferendis nemo voluptatem inventore aliquid mollitia, esse debitis expedita doloremque! Unde, voluptas.</p>
             <img src="images/preston.jpg" alt="preston" id="art">
@@ -129,7 +136,7 @@
         &copy; | The Temperature for Travelers | Sam Noorda | <br> <span id="curDate"></span>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/fweather.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

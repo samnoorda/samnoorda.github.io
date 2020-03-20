@@ -1,3 +1,13 @@
+let pday = new Date();
+let aside = document.querySelector('aside');
+if (pday.getDay() === 5) {
+    aside.style.display = "block";
+}
+else {
+    aside.style.display = "none";
+}
+
+
 const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
 
 fetch(apiURLWeather)

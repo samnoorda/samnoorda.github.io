@@ -36,14 +36,6 @@ fullDate = daysOfWeek[date.getDay()] + ", " + day + " " + month[date.getMonth()]
 document.querySelector("#curDate").textContent = fullDate;
 // document.getElementById("curDate").innerHTML = fullDate;
 
-let pday = new Date();
-let aside = document.querySelector('aside');
-if (pday.getDay() === 5) {
-    aside.style.display = "block";
-}
-else {
-    aside.style.display = "none";
-}
 
 function toggle(){
     document.getElementsByClassName("flex")[0].classList.toggle("resp");

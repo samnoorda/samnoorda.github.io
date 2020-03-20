@@ -1,4 +1,4 @@
-const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
+const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
 
 fetch(apiURLWeather)
   .then((response) => response.json())
@@ -28,7 +28,7 @@ const days = [
     'Saturday'
 ];
 
-const apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=9e1d40f84b91347947411168e8eeb562&units=imperial'
+const apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=9e1d40f84b91347947411168e8eeb562&units=imperial'
 
 fetch(apiURLForecast)
   .then((response) => response.json())

@@ -1,0 +1,38 @@
+
+[
+    {
+        "Temple": "Bern Switzerland Temple",
+        "Streetline1": "Tempelstrasse 2",
+        "Streetline2": "CH-3052 Zollikofen",
+        "City": "Bern",
+        "State": "Switzerland",
+        "Country": "Switzerland",
+        "Zip": "3052",
+        "Telephone": "(41) 31-915-5252",
+        "Email": "SWISS-OFF@ChurchofJesusChrist.org",
+        "Services": [
+            "Clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            "1 July 1952 - Announced",
+            "5 August 1953 - Groundbreaking",
+            "11 September 1955 - Dedicated",
+            "23 October 1992 - Rededicated"
+        ],
+        "Schedule": [
+            "Initiatory: Tuesday - Saturday",
+            "Endowment: Tuesday - Saturday",
+            "Sealings: Tuesday - Saturday"
+        ],
+        "Closures": [
+            "Monday, 16 March 2020 - Monday, 27 April 2020",
+            "Monday, 18 May 2020 - Monday, 13 July 2020",
+            "Thursday, 24 December 2020 - Saturday, 26 December 2020",
+            "Thursday, 31 December 2020"
+        ],
+        "Image": "https://assets.ldscdn.org/5b/9b/5b9b4a953a54c9bca172028e8a5f1f71e6f4c5b3/bern_switzerland_temple_lds.jpeg"
+    }
+]

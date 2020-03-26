@@ -1,0 +1,8 @@
+.weather-summary {
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    background-color: white;
+    opacity: .7;
+    padding: 10px;
+}

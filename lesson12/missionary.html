@@ -19,26 +19,26 @@
                 <a href="#" onclick="toggle()">&equiv; Menu</a>
             </li>
             <li>
-                <a href="#">Home</a>
+                <a href="samnoorda.github.io/lesson12/index">Home</a>
             </li>
             <li>
-                <a href="#">Temples</a>
+                <a href="samnoorda.github.io/lesson12/temples">Temples</a>
             </li>
             <li>
-                <a href="#">Reservations</a>
+                <a href="samnoorda.github.io/lesson12/reservation">Reservations</a>
             </li>
             <li>
-                <a href="#" class="active">Services</a>
+                <a href="samnoorda.github.io/lesson12/services" class="active">Services</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="samnoorda.github.io/lesson12/contact">Contact</a>
             </li>
         </ul>
     </nav>
     <nav>
         <ul class="flex2">
             <li>
-                <a href="#">Receptions</a>
+                <a href="samnoorda.github.io/lesson12/reception">Receptions</a>
             </li>
             <li>
                 <a href="#" class="active">Temple Missionaries</a>
@@ -46,7 +46,41 @@
         </ul>
     </nav>
     <main>
-        
+        <section class="pictures">
+            <picture>
+                <img id="lantern" src="images/400x300.png" data-src="images/queen.jpg" alt="Queen Suite">
+                <br>Queen Suite
+            </picture>
+            <picture>
+                <img id="lantern" src="images/400x300.png" data-src="images/king.jpg" alt="King Suite">
+                <br>King Suite
+            </picture>
+            <picture>
+                <img id="lantern" src="images/400x300.png" data-src="images/twoqueens.webp" alt="Love Backdrop">
+                <br>Two Queens
+            </picture>
+        </section>
+        <section>
+            <h4>Contact Us For More Details:</h4>
+            <form id="form" action="thanks.html" method="GET">
+                <div>
+                    <label for="fullName">Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" placeholder="example@domain.com" required>  
+                </div>
+                <div>
+                    <label for="info">Questions: </label><br>
+                    <textarea id="info" rows="5" cols="100"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit" src="https://samnoorda.github.io/lesson12/thanks">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </section>
     </main>
     
     <footer>
@@ -54,5 +88,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/reception.js"></script>
 </body>
 </html>

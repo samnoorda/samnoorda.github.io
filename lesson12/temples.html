@@ -9,41 +9,224 @@
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
-    <section>
-        <h1 id="temple1name"></h1>
-        <img id="image1" src="" alt="">
-        <article class="weather-summary">
-            <h2>Weather Summary: </h2>
-            <div>
-                <span>Currently: <span id="currently"></span><img src="" alt="" id="weather-icon"></span>
-            </div>
-
-            <div id="divwind">
-                <span>High: <span id="high"></span>&deg;F</span>
-            </div>
-
-            <div id="divwind">
-                <span>Wind Chill: <span id="windchill"></span>&deg;F</span>
-            </div>
-
-            <div id="divwind">
-                <span>Humidity: <span id="humidity"></span>&percnt;</span>
-            </div>
-
-            <div>
-                <span>Wind Speed: <span id="windspeed"></span> mph</span>
-            </div>
-        </article>
-        <p id="address1"></p>
-        <p id="phone1"></p>
-        <p id="email1"></p>
-        <ul id="service1"></ul>
-        <ul id="history1"></ul>
-        <ul id="schedule1"></ul>
-        <ul id="closure1"></ul>
+    <header>
+        <img src="images/logo.png" alt="logo" id="logo">
+        <h1 id="title">The Temple Inn & Suites</h1>
+    </header>
+    <nav>
+        <ul class="flex">
+            <li>
+                <a href="#" onclick="toggle()">&equiv; Menu</a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#" class="active">Temples</a>
+            </li>
+            <li>
+                <a href="#">Reservations</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1 id="temple1name"></h1>
+            
+            <article id="bern">
+                <img id="image1" src="" alt="">
+                <section id="info">
+                    <h3>Bern Weather</h3>
+                        <div>
+                            <span>Currently: <span id="currently"></span><img src="" alt="" id="weather-icon"></span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>High: <span id="high"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Wind Chill: <span id="windchill"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Humidity: <span id="humidity"></span>&percnt;</span>
+                        </div>
+            
+                        <div>
+                            <span>Wind Speed: <span id="windspeed"></span> mph</span>
+                        </div>
+                    
+                </section>
+                
+            </article>
+            <h3>Address</h3>
+            <p id="address1"></p>
+            <h3>Telephone Number</h3>
+            <p id="phone1"></p>
+            <h3>Email Address</h3>
+            <p id="email1"></p>
+            <h3>Services</h3>
+            <ul id="service1"></ul>
+            <h3>Milestones</h3>
+            <ul id="history1"></ul>
+            <h3>Schedule</h3>
+            <ul id="schedule1"></ul>
+            <h3>Closures</h3>
+            <ul id="closure1"></ul>
+            <hr>
+        </section>
+        <section>
+            <h1 id="temple2name"></h1>
+            
+            <article id="bern">
+                <img id="image2" src="" alt="">
+                <section id="info">
+                    <h3>San Diego Weather</h3>
+                        <div>
+                            <span>Currently: <span id="currently2"></span><img src="" alt="" id="weather-icon"></span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>High: <span id="high2"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Wind Chill: <span id="windchill2"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Humidity: <span id="humidity2"></span>&percnt;</span>
+                        </div>
+            
+                        <div>
+                            <span>Wind Speed: <span id="windspeed2"></span> mph</span>
+                        </div>
+                </section>
+                
+            </article>
+            <section></section>
+            <h3>Address</h3>
+            <p id="address2"></p>
+            <h3>Contact Number</h3>
+            <p id="phone2"></p>
+            <h3>Email Address</h3>
+            <p id="email2"></p>
+            <h3>Services</h3>
+            <ul id="service2"></ul>
+            <h3>Milestones</h3>
+            <ul id="history2"></ul>
+            <h3>Schedule</h3>
+            <ul id="schedule2"></ul>
+            <h3>Closures</h3>
+            <ul id="closure2"></ul>
+            <hr>
+        </section>
+        <section>
+            <h1 id="temple3name"></h1>
+            
+            <article id="bern">
+                <img id="image3" src="" alt="">
+                <section id="info">
+                    <h3>Logan Weather</h3>
+                        <div>
+                            <span>Currently: <span id="currently3"></span><img src="" alt="" id="weather-icon"></span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>High: <span id="high3"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Wind Chill: <span id="windchill3"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Humidity: <span id="humidity3"></span>&percnt;</span>
+                        </div>
+            
+                        <div>
+                            <span>Wind Speed: <span id="windspeed3"></span> mph</span>
+                        </div>
+                    
+                </section>
+                
+            </article>
+            <h3>Address</h3>
+            <p id="address3"></p>
+            <h3>Telephone Number</h3>
+            <p id="phone3"></p>
+            <h3>Email Address</h3>
+            <p id="email3"></p>
+            <h3>Services</h3>
+            <ul id="service3"></ul>
+            <h3>Milestones</h3>
+            <ul id="history3"></ul>
+            <h3>Schedule</h3>
+            <ul id="schedule3"></ul>
+            <h3>Closures</h3>
+            <ul id="closure3"></ul>
+            <hr>
+        </section>
+        <section>
+            <h1 id="temple4name"></h1>
+            
+            <article id="bern">
+                <img id="image4" src="" alt="">
+                <section id="info">
+                    <h3>Nauvoo Weather</h3>
+                        <div>
+                            <span>Currently: <span id="currently4"></span><img src="" alt="" id="weather-icon"></span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>High: <span id="high4"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Wind Chill: <span id="windchill4"></span>&deg;F</span>
+                        </div>
+            
+                        <div id="divwind">
+                            <span>Humidity: <span id="humidity4"></span>&percnt;</span>
+                        </div>
+            
+                        <div>
+                            <span>Wind Speed: <span id="windspeed4"></span> mph</span>
+                        </div>
+                </section>
+                
+            </article>
+            <section></section>
+            <h3>Address</h3>
+            <p id="address4"></p>
+            <h3>Contact Number</h3>
+            <p id="phone4"></p>
+            <h3>Email Address</h3>
+            <p id="email4"></p>
+            <h3>Services</h3>
+            <ul id="service4"></ul>
+            <h3>Milestones</h3>
+            <ul id="history4"></ul>
+            <h3>Schedule</h3>
+            <ul id="schedule4"></ul>
+            <h3>Closures</h3>
+            <ul id="closure4"></ul>
+            <hr>
+        </section>
+    </main>
     
-        <script src="scripts/temples.js"></script>
-    </section>
-    
+    <footer>
+        &copy; | The Temple Inn & Suites | Sam Noorda | <br> <span id="curDate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/temples.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

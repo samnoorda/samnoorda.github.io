@@ -1,8 +1,115 @@
-.weather-summary {
-    position: absolute;
-    top: 400px;
-    left: 25px;
-    background-color: white;
-    opacity: .7;
+article section p {
+    padding-bottom: 5px;
+}
+body  {
+    background-color: #e5e5e5;
+}
+header, footer {
+    background-color: #104710;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Vollkorn', sans-serif;
+    display: block;
+}
+html {
+    justify-content: center;
+    background-color: #89ce94;
+}
+img {
+    width: 100%;
+}
+main {
+    margin: 0 auto;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+nav {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #cca43b;
+    padding: 3px;
+    border: 1px solid #104710;
+}
+ul {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #cca43b;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul a:visited {
+    /* color: #0b4f6c; */
+}
+ul a:hover {
+    background-color: #89ce94;
+    color: black;
+}
+.active {
+    background-color: #104710;
+    color: #fbfbff;
+}
+.flex {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.flex li {
+    display: none;
+}
+.flex li:first-child {
+    display: block;
+}
+.flex2 {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.flex2 li {
+    display: flex;
+    flex-direction: column;
+}
+.resp li {
+    display: block;
+}
+.amen {
+    border: 1px solid #104710;
+}
+.other {
+    padding: 0
+    66.;
+}
+#bern {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#call {
+    font-size: large;
+    color: #104710;
+    background-color: #89ce94;
+    font-weight: 700;
+    margin: 10px;
     padding: 10px;
+    border: 2px solid #104710;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+}
+#info {
+    width: 100%;
+}
+#logo {
+    width: 50px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 8px;
 }

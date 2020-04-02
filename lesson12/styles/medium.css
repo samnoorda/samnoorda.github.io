@@ -1,0 +1,61 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        font-size: large;
+        /* margin-left: .5in; */
+        /* margin-right: .5in; */
+        width: fit-content;
+    }
+    footer, header {
+        padding: 5px;
+    }
+    img {
+        width: 60%;
+        height: 60%;
+    }
+    ul {
+        padding: 0;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex li {
+        display: block;
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    .flex li:first-child {
+        display: none;
+    }
+    .flex2 {
+        display: flex;
+    }
+    .flex2 li {
+        display: block;
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    #bern {
+        flex-direction: row;
+    }
+    #call {
+        font-size: xx-large;
+        font-weight: 800;
+        margin: 30px;
+        padding: 30px;
+    }
+    #contact {
+        flex-direction: row;
+    }
+    #info {
+        width: 40%;
+    }
+    #logo {
+        float: left;
+        width: 100px;
+        padding-left: 3em;
+        padding-top: 8px;
+    }
+    #temple {
+        width: 100%;
+    }
+}

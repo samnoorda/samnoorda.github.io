@@ -39,23 +39,23 @@ fetch('json/temples.json')
             document.querySelector('#image1').setAttribute('alt', response[0].Temple);
         }
     )
-    // var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=2661552&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
+    var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=2661552&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
 
-    // fetch(apiURLWeather)
-    //   .then((response) => response.json())
-    //   .then((jsObject) => {
-    //     document.querySelector('#currently').textContent = jsObject.weather[0].main;
-    //     document.querySelector('#windchill').textContent = jsObject.main.feels_like;
-    //     document.querySelector('#high').textContent = jsObject.main.temp_max;
-    //     document.querySelector('#humidity').textContent = jsObject.main.humidity;
-    //     document.querySelector('#windspeed').textContent = jsObject.wind.speed;
+    fetch(apiURLWeather)
+      .then((response) => response.json())
+      .then((jsObject) => {
+        document.querySelector('#currently').textContent = jsObject.weather[0].main;
+        document.querySelector('#windchill').textContent = jsObject.main.feels_like;
+        document.querySelector('#high').textContent = jsObject.main.temp_max;
+        document.querySelector('#humidity').textContent = jsObject.main.humidity;
+        document.querySelector('#windspeed').textContent = jsObject.wind.speed;
     
-    //     let weatherIcon = document.querySelector('#weather-icon');
-    //     let image = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-    //     let alt = jsObject.weather[0].description;
-    //     weatherIcon.setAttribute('src', image);
-    //     weatherIcon.setAttribute('alt', alt);
-    //   });
+        let weatherIcon = document.querySelector('#weather-icon');
+        let image = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+        let alt = jsObject.weather[0].description;
+        weatherIcon.setAttribute('src', image);
+        weatherIcon.setAttribute('alt', alt);
+      });
     
     
     
@@ -113,23 +113,23 @@ fetch('json/temples.json')
             document.querySelector('#image2').setAttribute('alt', response[0].Temple);
         }
     )
-    // var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5391811&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
+    var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5391811&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
 
-    // fetch(apiURLWeather)
-    //   .then((response) => response.json())
-    //   .then((jsObject) => {
-    //     document.querySelector('#currently2').textContent = jsObject.weather[0].main;
-    //     document.querySelector('#windchill2').textContent = jsObject.main.feels_like;
-    //     document.querySelector('#high2').textContent = jsObject.main.temp_max;
-    //     document.querySelector('#humidity2').textContent = jsObject.main.humidity;
-    //     document.querySelector('#windspeed2').textContent = jsObject.wind.speed;
+    fetch(apiURLWeather)
+      .then((response) => response.json())
+      .then((jsObject) => {
+        document.querySelector('#currently2').textContent = jsObject.weather[0].main;
+        document.querySelector('#windchill2').textContent = jsObject.main.feels_like;
+        document.querySelector('#high2').textContent = jsObject.main.temp_max;
+        document.querySelector('#humidity2').textContent = jsObject.main.humidity;
+        document.querySelector('#windspeed2').textContent = jsObject.wind.speed;
     
-    //     let weatherIcon = document.querySelector('#weather-icon');
-    //     let image = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-    //     let alt = jsObject.weather[0].description;
-    //     weatherIcon.setAttribute('src', image);
-    //     weatherIcon.setAttribute('alt', alt);
-    //   });
+        let weatherIcon = document.querySelector('#weather-icon2');
+        let image = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+        let alt = jsObject.weather[0].description;
+        weatherIcon.setAttribute('src', image);
+        weatherIcon.setAttribute('alt', alt);
+      });
     
     //End Of San Diego Temple
 
@@ -175,23 +175,23 @@ fetch('json/temples.json')
         document.querySelector('#image3').setAttribute('alt', response[2].Temple);
     }
 )
-// var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5777544&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
+var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5777544&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
 
-// fetch(apiURLWeather)
-//   .then((response) => response.json())
-//   .then((jsObject) => {
-//     document.querySelector('#currently3').textContent = jsObject.weather[0].main;
-//     document.querySelector('#windchill3').textContent = jsObject.main.feels_like;
-//     document.querySelector('#high3').textContent = jsObject.main.temp_max;
-//     document.querySelector('#humidity3').textContent = jsObject.main.humidity;
-//     document.querySelector('#windspeed3').textContent = jsObject.wind.speed;
+fetch(apiURLWeather)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    document.querySelector('#currently3').textContent = jsObject.weather[0].main;
+    document.querySelector('#windchill3').textContent = jsObject.main.feels_like;
+    document.querySelector('#high3').textContent = jsObject.main.temp_max;
+    document.querySelector('#humidity3').textContent = jsObject.main.humidity;
+    document.querySelector('#windspeed3').textContent = jsObject.wind.speed;
 
-//     let weatherIcon = document.querySelector('#weather-icon');
-//     let image = 'https://openweathermap.org/img/w/' + jsObject.weather[2].icon + '.png';
-//     let alt = jsObject.weather[0].description;
-//     weatherIcon.setAttribute('src', image);
-//     weatherIcon.setAttribute('alt', alt);
-//   });
+    let weatherIcon = document.querySelector('#weather-icon3');
+    let image = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+    let alt = jsObject.weather[0].description;
+    weatherIcon.setAttribute('src', image);
+    weatherIcon.setAttribute('alt', alt);
+  });
 
 //End of Logan Temple
 
@@ -237,22 +237,22 @@ fetch('json/temples.json')
         document.querySelector('#image4').setAttribute('alt', response[3].Temple);
     }
 )
-// var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=4903330&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
+var apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=4903330&appid=9e1d40f84b91347947411168e8eeb562&units=imperial';
 
-// fetch(apiURLWeather)
-//   .then((response) => response.json())
-//   .then((jsObject) => {
-//     document.querySelector('#currently4').textContent = jsObject.weather[0].main;
-//     document.querySelector('#windchill4').textContent = jsObject.main.feels_like;
-//     document.querySelector('#high4').textContent = jsObject.main.temp_max;
-//     document.querySelector('#humidity4').textContent = jsObject.main.humidity;
-//     document.querySelector('#windspeed4').textContent = jsObject.wind.speed;
+fetch(apiURLWeather)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    document.querySelector('#currently4').textContent = jsObject.weather[0].main;
+    document.querySelector('#windchill4').textContent = jsObject.main.feels_like;
+    document.querySelector('#high4').textContent = jsObject.main.temp_max;
+    document.querySelector('#humidity4').textContent = jsObject.main.humidity;
+    document.querySelector('#windspeed4').textContent = jsObject.wind.speed;
 
-//     let weatherIcon = document.querySelector('#weather-icon');
-//     let image = 'https://openweathermap.org/img/w/' + jsObject.weather[3].icon + '.png';
-//     let alt = jsObject.weather[0].description;
-//     weatherIcon.setAttribute('src', image);
-//     weatherIcon.setAttribute('alt', alt);
-//   });
+    let weatherIcon = document.querySelector('#weather-icon4');
+    let image = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+    let alt = jsObject.weather[0].description;
+    weatherIcon.setAttribute('src', image);
+    weatherIcon.setAttribute('alt', alt);
+  });
 
 //End of Nauvoo Temple
